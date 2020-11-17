@@ -1,0 +1,15 @@
+.App {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo--item-list {
+  list-style: none;
+}
+.todo--item:not(:last-child) {
+  margin-bottom: 10px;
+}
